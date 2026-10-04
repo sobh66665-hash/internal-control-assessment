@@ -1,0 +1,11 @@
+Control ID,Test Objective,Sample,Testing Procedure,Test Result,Conclusion,Exception / Observation
+C-01,Purchase requisition approval,12 requisitions,Inspect approval evidence and compare approver with delegated authority,12/12 approved within authority,Effective,No exceptions
+C-02,Approved requisition before PO,12 POs,Trace each PO to related approved requisition and approval date,11/12 supported by prior approval,Partially Effective,1 PO issued before documented requisition approval
+C-03,Independent vendor approval,10 new vendors,Inspect supporting documents and confirm independent approval,7/10 independently approved,Ineffective,3 vendors lacked documented independent approval
+C-04,Supplier bank detail changes,8 changes,Inspect verification evidence and approval before master-data update,8/8 supported,Effective,No exceptions
+C-05,Goods receipt before payment,12 invoices,Trace invoices to receiving records dated before payment eligibility,12/12 supported,Effective,No exceptions
+C-06,Three-way matching,15 invoices,Compare PO quantity/value receipt evidence and invoice details,13/15 matched without exception,Partially Effective,2 invoices had unresolved quantity differences
+C-07,Payment authorization,10 payment batches,Inspect approval evidence and compare approvals with authority limits,10/10 approved within limits,Effective,No exceptions
+C-08,Segregation of duties / access,User access listing,Review user roles for incompatible procurement AP and payment permissions,2 incompatible combinations identified,Ineffective,Users retained conflicting procurement and AP access
+C-09,Monthly exception monitoring,3 monthly reports,Inspect exception log aging ownership and management follow-up,2/3 reports complete,Partially Effective,One month lacked documented follow-up for overdue exceptions
+C-10,Supporting documentation,20 sampled transactions,Inspect availability of requisition PO receipt invoice and approval evidence,18/20 complete,Partially Effective,2 transactions lacked complete supporting documentation
